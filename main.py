@@ -22,7 +22,7 @@ root.config(bg='black')
 root.resizable(False, False)
 
 
-icon = PhotoImage(file='C:/Users/HP/PycharmProjects/code to img pr/11.png')
+icon = PhotoImage(file='Путь к иконке')
 
 but = Button(root, image=icon, bg='black', width=64, height=64, command=yo, relief=FLAT)
 but.pack(side=BOTTOM, pady=100,)
